@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-color: black;
+    padding: 15px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+main {
+    margin: 10px;
+}
+
+.low {
+    background-color: green;
+    padding: 5px;
+}
+.moderate {
+    background-color: yellow;
+    padding: 5px;
+}
+.high {
+    background-color: orange;
+    padding: 5px;
+}
+.very-high{
+    background-color: red;
+    padding: 5px;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
