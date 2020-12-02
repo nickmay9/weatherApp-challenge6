@@ -1,4 +1,4 @@
-var apiKey = ""; //enter apikey here
+var apiKey = "91185228dbf30f4b353a83e4392b1aa7"; //enter apikey here
 
 //global declarations for current day weather
 var apiUrl = "https://api.openweathermap.org/data/2.5/weather";
