@@ -32,7 +32,7 @@ function getCurrentWeather(city) {
 }
 
 function getUvIndex(city, weatherData){
-    var uvApiUrl = "http://api.openweathermap.org/data/2.5/uvi?lat=" + weatherData.coord.lat + "&lon=" + weatherData.coord.lon + "&appid=" + apiKey;
+    var uvApiUrl = "https://api.openweathermap.org/data/2.5/uvi?lat=" + weatherData.coord.lat + "&lon=" + weatherData.coord.lon + "&appid=" + apiKey;
     fetch(uvApiUrl).then(function(response){
         if(response.ok){
             response.json().then(function(uvData){
